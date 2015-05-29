@@ -49,7 +49,7 @@ $(document).on("ready",function(){
 	$(".check").css({'display':'table'}).children('*').css({'display':'table-cell','color':'white'});
 	$("#fancybox3 .check").css({'margin-top':'-5px','margin-bottom':'-10px'}).children('*').css({'margin-left':'5px','vertical-align':'top','font-size':'.8rem'});
 
-	$("#fancybox3 input[type='checkbox']").css({'height':'20px','width':'20px'});
+	$("#fancybox3 input[type='checkbox']").css({'height':'10px','width':'10px'});
 	$(".check a").css({'text-decoration':'underline'})
 	//zopim chat
 
@@ -144,4 +144,11 @@ $("input[type='checkbox']").attr('checked',true)
 	$("ul.ancho li:eq(1)").attr('class','submenu2');
 	//$("header .nav-list ul .submenu5").css({'top':'40px'});
 	$("section.ancho").css({'margin-top':'1px'});
+	$("header .nav-list ul li a ").css({'padding':'0 20px'});
+
+$("#fancybox3 input[type='text']").css({'margin-right':'0'})
+$("#fancybox3 h3").css({'font-size':'0.6rem'})
+$("#fancybox3 button").css({'margin':'2px auto'});
+
+
 });
