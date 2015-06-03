@@ -19,7 +19,7 @@ $(document).on("ready",function(){
 			var phone = $(this).parent().children('input[type="text"]').val();
 			if( !isNaN(phone)  && phone.length === 9){
 				$.ajax({
-					url :'http://c2s.dilootu.com/directv/WS_pro.php',
+					url :'http://c2s.dilootu.com/directp/WS_pro.php',
 					type:'POST',
 					data:{
 						dst:200,
